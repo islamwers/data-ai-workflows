@@ -7,7 +7,9 @@
   "scripts": {
     "demo:etl": "python3 etl/transform.py && node etl/load.mjs",
     "demo:ai": "node ai/run-demo.cjs",
-    "test": "npm run demo:etl && npm run demo:ai"
+    "test": "python3 etl/transform.py && node etl/load.mjs && node ai/run-demo.cjs"
   },
-  "dependencies": {"@electric-sql/pglite": "0.3.14"}
+  "dependencies": {
+    "@electric-sql/pglite": "0.3.14"
+  }
 }
