@@ -1,8 +1,16 @@
 # ETL / Clean data. Ready to report.
 
-[![ETL film](../media/etl-poster.png)](../media/etl-demo-en.mp4)
+[![ETL film](../media/etl-poster.png)](#watch-the-demo)
 
-**[Watch the 36-second film](../media/etl-demo-en.mp4)** · [Run evidence](../evidence/etl-run.json) · [Back to the showcase](../README.md)
+**[Watch the 36-second film](#watch-the-demo)** · [Run evidence](../evidence/etl-run.json) · [Back to the showcase](../README.md)
+
+## Watch the demo
+
+https://github.com/user-attachments/assets/c377bd69-64c4-4ce7-80c1-96156168b4f0
+
+[Download the MP4](../media/etl-demo-en.mp4) · Silent film with English on-screen text.
+
+## The workflow
 
 A reporting table should have clear definitions, explainable rejections and predictable reruns. This small example makes those properties visible.
 

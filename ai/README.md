@@ -1,8 +1,16 @@
 # AI / From message to saved record.
 
-[![AI film](../media/ai-poster.png)](../media/ai-demo-en.mp4)
+[![AI film](../media/ai-poster.png)](#watch-the-demo)
 
-**[Watch the 36-second film](../media/ai-demo-en.mp4)** · [Replay evidence](../evidence/ai-run.json) · [Original prototype](https://github.com/islamwers/tgbot_salary)
+**[Watch the 36-second film](#watch-the-demo)** · [Replay evidence](../evidence/ai-run.json) · [Original prototype](https://github.com/islamwers/tgbot_salary)
+
+## Watch the demo
+
+https://github.com/user-attachments/assets/2afa9bb5-2011-4ece-b554-1a975c13cf19
+
+[Download the MP4](../media/ai-demo-en.mp4) · Silent film with English on-screen text.
+
+## The workflow
 
 The useful part of an AI integration is the action it helps a person complete. This prototype prepares a financial entry for review, waits for explicit confirmation and saves the approved row.
 

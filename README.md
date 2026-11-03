@@ -8,9 +8,9 @@ Two short walkthroughs of practical engineering: **clean reporting data** and **
 
 ## 01 / ETL — clean data, ready to report
 
-[![Watch the ETL workflow — 36 seconds](media/etl-preview.gif)](media/etl-demo-en.mp4)
+[![Watch the ETL workflow — 36 seconds](media/etl-preview.gif)](https://github.com/islamwers/data-ai-workflows/tree/main/etl#watch-the-demo)
 
-**[Watch the film ↗](media/etl-demo-en.mp4)** · [Read the case](etl/README.md) · [Inspect the run](evidence/etl-run.json)
+**[Watch the film ↗](https://github.com/islamwers/data-ai-workflows/tree/main/etl#watch-the-demo)** · [Read the case](etl/README.md) · [Inspect the run](evidence/etl-run.json)
 
 A fictional order file becomes a validated PostgreSQL table and a reconciled report. Invalid rows remain visible in a rejection report; repeated loads do not add duplicate orders.
 
@@ -22,9 +22,9 @@ A fictional order file becomes a validated PostgreSQL table and a reconciled rep
 
 ## 02 / AI — from message to saved record
 
-[![Watch the AI workflow — 36 seconds](media/ai-preview.gif)](media/ai-demo-en.mp4)
+[![Watch the AI workflow — 36 seconds](media/ai-preview.gif)](https://github.com/islamwers/data-ai-workflows/tree/main/ai#watch-the-demo)
 
-**[Watch the film ↗](media/ai-demo-en.mp4)** · [Read the case](ai/README.md) · [Inspect the replay](evidence/ai-run.json)
+**[Watch the film ↗](https://github.com/islamwers/data-ai-workflows/tree/main/ai#watch-the-demo)** · [Read the case](ai/README.md) · [Inspect the replay](evidence/ai-run.json)
 
 The original Telegram prototype handlers turn a prepared model response into a reviewable entry. A user confirms it, the handler appends one row, and the bot reads it back.
 
