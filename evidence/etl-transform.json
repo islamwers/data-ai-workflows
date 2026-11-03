@@ -1,0 +1,85 @@
+{
+  "mode": "synthetic fixture",
+  "source_rows": 12,
+  "clean_rows": [
+    {
+      "order_id": "ORD-101",
+      "date": "2026-10-01",
+      "channel": "organic",
+      "amount": "125.50",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-102",
+      "date": "2026-10-01",
+      "channel": "paid search",
+      "amount": "210.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-103",
+      "date": "2026-10-02",
+      "channel": "referral",
+      "amount": "99.90",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-104",
+      "date": "2026-10-02",
+      "channel": "organic",
+      "amount": "174.60",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-105",
+      "date": "2026-10-03",
+      "channel": "paid search",
+      "amount": "320.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-106",
+      "date": "2026-10-03",
+      "channel": "referral",
+      "amount": "150.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-107",
+      "date": "2026-10-04",
+      "channel": "organic",
+      "amount": "245.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-108",
+      "date": "2026-10-04",
+      "channel": "paid search",
+      "amount": "180.00",
+      "currency": "USD"
+    }
+  ],
+  "rejected": [
+    {
+      "line": 11,
+      "order_id": null,
+      "reason": "missing order_id"
+    },
+    {
+      "line": 12,
+      "order_id": "ORD-109",
+      "reason": "day is out of range for month"
+    },
+    {
+      "line": 13,
+      "order_id": "ORD-110",
+      "reason": "invalid amount"
+    }
+  ],
+  "replacements": [
+    {
+      "order_id": "ORD-103",
+      "policy": "last valid row in this file wins"
+    }
+  ]
+}

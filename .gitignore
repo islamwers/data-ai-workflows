@@ -1,0 +1,8 @@
+node_modules/
+.render-deps/
+__pycache__/
+.DS_Store
+.env
+credentials*.json
+design/frames/
+.pnpm-store/

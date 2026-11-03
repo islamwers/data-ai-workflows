@@ -1,0 +1,90 @@
+{
+  "mode": "Synthetic data; local PostgreSQL via PGlite; no external service calls",
+  "sourceRows": 12,
+  "rejectedRows": 3,
+  "duplicateRowsResolved": 1,
+  "firstRunRows": 8,
+  "secondRunRows": 8,
+  "totals": [
+    {
+      "channel": "organic",
+      "orders": 3,
+      "revenue": "545.10"
+    },
+    {
+      "channel": "paid search",
+      "orders": 3,
+      "revenue": "710.00"
+    },
+    {
+      "channel": "referral",
+      "orders": 2,
+      "revenue": "249.90"
+    }
+  ],
+  "totalRevenue": "1505.00",
+  "currency": "USD",
+  "checks": {
+    "repeatRunIdentical": true,
+    "reportReconciles": true,
+    "transactionRollback": true
+  },
+  "rows": [
+    {
+      "order_id": "ORD-101",
+      "order_date": "2026-10-01T00:00:00.000Z",
+      "channel": "organic",
+      "amount": "125.50",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-102",
+      "order_date": "2026-10-01T00:00:00.000Z",
+      "channel": "paid search",
+      "amount": "210.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-103",
+      "order_date": "2026-10-02T00:00:00.000Z",
+      "channel": "referral",
+      "amount": "99.90",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-104",
+      "order_date": "2026-10-02T00:00:00.000Z",
+      "channel": "organic",
+      "amount": "174.60",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-105",
+      "order_date": "2026-10-03T00:00:00.000Z",
+      "channel": "paid search",
+      "amount": "320.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-106",
+      "order_date": "2026-10-03T00:00:00.000Z",
+      "channel": "referral",
+      "amount": "150.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-107",
+      "order_date": "2026-10-04T00:00:00.000Z",
+      "channel": "organic",
+      "amount": "245.00",
+      "currency": "USD"
+    },
+    {
+      "order_id": "ORD-108",
+      "order_date": "2026-10-04T00:00:00.000Z",
+      "channel": "paid search",
+      "amount": "180.00",
+      "currency": "USD"
+    }
+  ]
+}

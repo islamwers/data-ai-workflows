@@ -1,0 +1,13 @@
+{
+  "name": "data-ai-workflows",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Two reproducible workflow demonstrations by Ruslan Batashov",
+  "scripts": {
+    "demo:etl": "python3 etl/transform.py && node etl/load.mjs",
+    "demo:ai": "node ai/run-demo.cjs",
+    "test": "npm run demo:etl && npm run demo:ai"
+  },
+  "dependencies": {"@electric-sql/pglite": "0.3.14"}
+}
